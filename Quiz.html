@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <link href ="Quiz.css"
+    ref="stylesheet"
+    type="text/css"/>
+  </head>
+  <body>
+    <form action="Quiz.php" method ="post">
+      <fieldset><!--fieldset necessary to get the border-->
+        <div>
+    <p>
+      <legent>Which one is an animal?</legend> <!--legent necessary to get the black box around quetion-->
+      <input id ="radioButton1" type="radio"
+      name='qone' value ="shoe">
+      <label for="choice1">shoe</label>
+
+      <input id="radioButton2" type="radio"
+      name="qone" value="scarf">
+      <label for="choice1">scarf</label>
+
+      <input id="radioButton3" type="radio"
+      name="qone" value="hat">
+      <label for="choice1">hat</label>
+
+      <input id="radioButton4" type="radio"
+      name="qone" value="monkey" checked="checked">
+      <label for="choice1">monkey</label>
+
+
+      <legend>What is the capital of Kansas?</legend><!--legend necessary to get the black box around question-->
+      <input id="radioButton5" type="radio"
+       name="qtwo" value="canada">
+      <label for="choice1">canada</label>
+
+      <input id="radioButton6" type="radio"
+      name="qtwo" value="mexico">
+      <label for="choice1">mexico</label>
+
+      <input id="radioButton7" type="radio"
+      name="qtwo" value="lawrence">
+      <label for="choice1">lawrence</label>
+
+      <input id="radioButton8" type="radio"
+      name="qtwo" value="topeka" checked="checked"> <!--input checked makes it auto checked-->
+      <label for="choice1">topeka</label>
+
+
+      <legend>What is EECS 448?</legend>
+      <input id="radioButton9" type="radio"
+      name="qthree" value="programming">
+      <label for="choice1">programming language paradigms</label>
+
+      <input id="radioButton10" type="radio"
+      name="qthree" value="software" checked="checked">
+      <label for="choice1">software engineering</label>
+
+      <input id="radioButton11" type="radio"
+      name="qthree" value="circuits">
+      <label for="choice1">circuits</label>
+
+      <input id="radioButton12" type="radio"
+      name="qthree" value="embedded systems" >
+      <label for="choice1">embedded</label>
+
+
+      <legend>When is our lab?</legend>
+      <input id="radioButton13" type="radio"
+      name="qfour" value="WeM">
+      <label for="choice1">Wednesday Morning</label>
+
+      <input id="radioButton14" type="radio"
+      name="qfour" value="SaM" checked="checked">
+      <label for="choice1">Thursday Afternoon</label>
+
+      <input id="radioButton15" type="radio"
+      name="qfour" value="SaE">
+      <label for="choice1">Saturday Evening</label>
+
+      <input id="radioButton16" type="radio"
+      name="qfour" value="SuE" >
+      <label for="choice1">Sunday Evening</label>
+
+
+      <legend>Which school is the best?</legend>
+      <input id="radioButton17" type="radio"
+      name="qfive" value="KU" checked="checked">
+      <label for="choice1">KU</label>
+
+      <input id="radioButton18" type="radio"
+      name="qfive" value="Wichita State">
+      <label for="choice1">Wichita State</label>
+
+      <input id="radioButton19" type="radio"
+      name="qfive" value="KSU">
+      <label for="choice1">KSU</label>
+
+      <input id="radioButton20" type="radio"
+      name="qfive" value="MU" >
+      <label for="choice1">MU</label>
+
+      <button type="submit">Submit</button>
+      </div>
+  </fieldset>
+      </form>
+  </body>
+</html>

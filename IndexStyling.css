@@ -1,0 +1,21 @@
+p.name
+{
+    background-color: lightblue;
+    color: grey;
+    font-family:fantasy;
+    font-size: 24;
+}
+body{
+  background-color:lightblue;
+  font-family: monospace;
+  font-size: 22;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+p
+{
+    background-color: lightblue;
+    color: Black;
+    font-family: monospace;
+    font-size: 12;
+}

@@ -1,0 +1,32 @@
+h1
+{
+	background-color: red;
+	
+}
+a:hover
+{
+    background-color: white;
+    color: blue
+}
+
+p.name
+{
+    color: grey;
+    font-family:fantasy;
+    font-size: 24;
+}
+body{
+  background-color:white;
+  font-family: monospace;
+  font-size: 12;
+    background-image: url(http://eppora.com/wp-content/uploads/2015/05/plain-light-color-for-guest-background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+p
+{
+    background-color: lightblue;
+    color: Black;
+    font-family: monospace;
+    font-size: 22;
+}

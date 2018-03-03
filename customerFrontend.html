@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Store</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="https://people.eecs.ku.edu/~a268s950/formChecker.js"></script>
+    </head>
+    <body>
+      <form name="stupidForm" method="POST" action="customerBackend.php" onsubmit="validateInfo()">
+        <div id="container">
+          <h1 id="title">Store</h1>
+          <h2 id="subtitle">Products</h2>
+          <table width="100%">
+            <tr>
+              <td width="33.33%">
+                <h3 id="product">Puppies</h3>
+                $1.00<br>
+                Quantity: <input type="number" id="Puppies" name="Puppies" value="0" size ="2">
+              </td>
+              <td width="33.33%">
+                <h3 id="product">Kittens</h3>
+                $2.00<br>
+                Quantity: <input type="number" id="Kittens" name="Kittens" value="0" size="2">
+              </td>
+              <td width="33.33%">
+                <h3 id="product">Ducks</h3>
+                $99.99<br>
+                Quantity: <input type="number" id="Ducks" name="Ducks" value="0" size="2">
+              </td>
+            </tr>
+            <br>
+          </table>
+        </div>
+        <br>
+        <div id="container">
+          <h2 id="subtitle">Shipping Options</h2>
+          <input type="radio" name="shipping" id="7day" value="7day" checked="checked"> Free 7 day<br>
+          <input type="radio" name="shipping" id="3day" value="3day"> $5.00 three day<br>
+          <input type="radio" name="shipping" id="1day" value="1day"> $50.00 over night<br>
+        </div>
+        <br>
+        <div id="container">
+          <h2 id="subtitle">User Account</h2>
+          Email Address: <input type="email" name="uname" id="uname"><br>
+          Password: <input type="password" name="pword" id="pword"><br>
+          <br>
+          <br>
+          <input type="submit" value="Submit">
+          <input type="button" value="Reset" onclick="reset()">
+        </div>
+      </form>
+    </body>
+</html>

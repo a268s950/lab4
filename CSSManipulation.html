@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>CSS Manipulation</title>
+  <script type="text/javascript" src="E4.js"></script>
+<meta http-equiv-"Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+  <p id="p" style="border-style:solid; border-width:0px">
+      JS had to “look like Java” only less so, 
+      <br>be Java's dumb kid brother or boy-hostage sidekick. 
+      <br>Plus, I had to be done in ten days or something 
+      <br>worse than JS would have happened."
+      <br>- Brendan Eich
+  </p>
+    <br>What do we want the border to be?<br>
+    Red [0, 255]:
+      <br><input id="brdRed" type="number" min="0" max="255" maxlength="3"><br>
+    Green [0, 255]: 
+      <br><input id="brdGreen" type="number" min="0" max="255" maxlength="3"><br>
+    Blue [0, 255]: 
+      <br><input id="brdBlue" type="number" min="0" max="255" maxlength="3"><br>
+    Width (pixels): 
+      <br><input id="brdWidth" type="number" min="0"><br>
+    <button type=button onclick="document.getElementById('p').style.border=thick solid #0000FF">Change Border</button>
+    
+    <br>
+    What should the background be?<br>
+    Red [0, 255]: 
+      <br><input id="bgRed" type="number" min="0" max="255" maxlength="3"><br>
+    Green [0, 255]: 
+      <br><input id="bgGreen" type="number" min="0" max="255" maxlength="3"><br>
+    Blue [0, 255]: 
+      <br><input id="bgBlue" type="number" min="0" max="255" maxlength="3"><br>
+    <button type=button onclick="color()">Change Background</button><br>
+   
+</body>
+
+</html>
